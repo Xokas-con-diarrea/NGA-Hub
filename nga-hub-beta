@@ -1,0 +1,39 @@
+-- Nigger Hub On top frfr
+local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
+
+local Window = OrionLib:MakeWindow({Name = "Nigger Hub ", HidePremium = false, SaveConfig = true, ConfigFolder = "OrionTest"})
+
+local AFKTab = Window:MakeTab({
+	Name = "AFKing",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+AFKTab:AddButton({
+	Name = "Disable 3D Rendering",
+	Callback = function()
+        game:GetService("RunService"):Set3dRenderingEnabled(false)
+  	end    
+})
+
+AFKTab:AddButton({
+	Name = "Able 3D Rendering",
+	Callback = function()
+        game:GetService("RunService"):Set3dRenderingEnabled(true)
+  	end    
+})
+
+AFKTab:AddButton({
+	Name = "10 FPS Limiter",
+	Callback = function()
+      		setfpscap(10)
+  	end    
+})
+
+AFKTab:AddButton({
+	Name = "100 FPS Limiter",
+	Callback = function()
+      		setfpscap(100)
+  	end    
+})
+
