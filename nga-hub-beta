@@ -17,7 +17,7 @@ AFKTab:AddButton({
 })
 
 AFKTab:AddButton({
-	Name = "Able 3D Rendering",
+	Name = "Enable 3D Rendering",
 	Callback = function()
         game:GetService("RunService"):Set3dRenderingEnabled(true)
   	end    
